@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginandsinginsection</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #logHome{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 100%;
+        place-items: center;
+
+    }
+/* Start page */
+    #home{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 20% 5% 40% 10% 10%;
+        place-items: center;
+        row-gap: 5px;
+        animation-name: open-animation;
+        animation-duration: 0.5s;
+    }
+    #home #logo{
+        width: 70px;
+    }
+    .showImg{
+        width: 100%;
+        
+    }
+     #home button{
+        width: 80%;
+        height: 2rem;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+     #home #singIn, .submit{
+        background-image:  linear-gradient(90deg, #b76462,#ff0400 , #b76462);
+        box-shadow: 0px 0px 3px #727272;
+        color: white;
+        border-radius: 3px;
+        font-weight: 700;
+    }
+
+</style>
+<body>
+    <main id="logHome">
+        <!-- Start page -->
+        <section id="home" class="hide">
+            <img id="logo" src="./img/logo_kh.webp" />
+            <h4 style="color: rgb(65, 99, 250);">Let's get you started</h4>
+            <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+            <button onclick="showBox('signArea')" id="singIn">Sign Up</button>
+            <button onclick="showBox('logArea')" style="background-color: transparent; color: #f70501;">Log In</button>
+        </section>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHCONNECT LOG IN</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <svg onclick="openManuBar()" xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        <img id="logo" src="./img/logo_kh.webp" />
+        <a href="./Notification.html"><svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M80-560q0-100 44.5-183.5T244-882l47 64q-60 44-95.5 111T160-560H80Zm720 0q0-80-35.5-147T669-818l47-64q75 55 119.5 138.5T880-560h-80ZM160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg></a>
+    </nav>
+
+    <!-- manu bar slide -->
+    <section id="manuBar">
+        <main>
+            <div id="imgArea">
+                <div>
+                    <img src="./img/logo_kh.webp" alt="">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16"><path d="M200-200h57l391-391-57-57-391 391v57Zm-80 80v-170l528-527q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L290-120H120Zm640-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z"/></svg>
+                    </a>
+                </div>
+                <h4>Digvijay Singh</h4>
+            </div>
+            <div id="linksArea">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160Zm40 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+                    <span>Personal Loan</span>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M760-200H320q-33 0-56.5-23.5T240-280v-560q0-33 23.5-56.5T320-920h280l240 240v400q0 33-23.5 56.5T760-200ZM560-640v-200H320v560h440v-360H560ZM160-40q-33 0-56.5-23.5T80-120v-560h80v560h440v80H160Zm160-800v200-200 560-560Z"/></svg>
+                    <span>References</span>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M240-160q-66 0-113-47T80-320v-320q0-66 47-113t113-47h480q66 0 113 47t47 113v320q0 66-47 113t-113 47H240Zm0-480h480q22 0 42 5t38 16v-21q0-33-23.5-56.5T720-720H240q-33 0-56.5 23.5T160-640v21q18-11 38-16t42-5Zm-74 130 445 108q9 2 18 0t17-8l139-116q-11-15-28-24.5t-37-9.5H240q-26 0-45.5 13.5T166-510Z"/></svg>
+                    <span>My Earnings</span>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M200-200v-560 560Zm0 80q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v100h-80v-100H200v560h560v-100h80v100q0 33-23.5 56.5T760-120H200Zm320-160q-33 0-56.5-23.5T440-360v-240q0-33 23.5-56.5T520-680h280q33 0 56.5 23.5T880-600v240q0 33-23.5 56.5T800-280H520Zm280-80v-240H520v240h280Zm-160-60q25 0 42.5-17.5T700-480q0-25-17.5-42.5T640-540q-25 0-42.5 17.5T580-480q0 25 17.5 42.5T640-420Z"/></svg>
+                    <span>EMI</span>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg>
+                    <span>Profile</span>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>
+                    <span>Settings</span>
+                </a>
+
+            </div>
+            <div id="logOut-area">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#009dff" height="20" viewBox="0 -960 960 960" width="20"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/></svg>
+                    <span>Log Out</span>
+                </a> 
+            <span id="version">version: 1.0.0</span>
+            </div>
+        </main>
+        <aside onclick="closeManuBar()">
+        </aside>
+    </section>
+    <script>
+        function openManuBar() {
+          var selectedBox = document.getElementById('manuBar');
+          if (selectedBox) {
+            selectedBox.style.display = 'grid';
+          }
+        }
+    
+        function closeManuBar() {
+          var selectedBox = document.getElementById('manuBar');
+          if (selectedBox) {
+            selectedBox.style.display = 'none';
+          }
+        }
+    </script>
+    <!-- profile-bar -->
+    <section id="profile-bar">
+        <img id="profile-img" src="./img/logo_kh.webp" />
+        <div class="details">
+            <h4>Name</h4>
+            <h4>Supervisor</h4>
+            <h4>Pan</h4>
+        </div>
+        <div class="details" style="color: white;">
+            <h4>digvijay</h4>
+            <h4>mukesh kumar</h4>
+            <h4>*******033d</h4>
+        </div>
+    </section>
+
+    <!-- notify bar -->
+    <section id="notify-bar">
+        <div id="uper-container">
+            <div class="text-area" style="border-right: 1px solid rgb(71, 71, 71);">
+                <h4>0</h4>
+                <p>logged in</p>
+                <span>Till Date</span>
+            </div>
+            <div class="text-area" style="border-right: 1px solid rgb(71, 71, 71);">
+                <h4>0</h4>
+                <p>Disbursed</p>
+                <span>Till Date</span>
+            </div>
+            <div class="text-area" style="border-right: 1px solid rgb(71, 71, 71);">
+                <h4>0</h4>
+                <p>Rejected</p>
+                <span>Till Date</span>
+            </div>
+            <div class="text-area">
+                <h4>0</h4>
+                <p>Panding</p>
+                <span>Till Date</span>
+            </div>
+        </div>
+        <div id="lower-container">
+            <h4>0</h4>
+            <p>Panding</p>
+            <span>Till Date</span>
+        </div>
+    </section>
+
+    <!-- card-area -->
+    <section id="card-area">
+        <a href="./personalLoan.html">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+        <a href="http://">
+            <div class="home-page-cards">
+                <img class="showImg" src="./img/IMG_20231222_213211-removebg-preview (2).png" />
+                <h4>Personal Loan</h4>
+            </div>
+        </a>
+    </section>
+</body>
+</html>
